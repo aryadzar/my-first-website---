@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: pink;
+    padding: 10px;
+    background-image: url(walpaper.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+
+table{
+    border-style:hidden;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+    margin-left: auto ;
+    margin-right: auto;
+    width: 80%;
+}
+
+table tr th{
+    border: 1;
+
+}
+
+
+
+nav{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+    justify-content: space-between;
+
+}
+
+nav ul li{
+    display: inline;
+    margin: 0px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+nav ul li a:hover{
+    color: red;
+}
+
+nav ul li a:active{
+    transform: scale(1);
+}
+.judul{
+    transition: 1.5s;
+}
+
+.judul:hover{
+    color: red;
+}
+
+img{
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 2px solid black;
+    filter: grayscale(100%);
+    transition: filter 0.6s;
+}
+
+img:hover{
+    filter: grayscale(0%);
+}
+
+h4{
+    text-align: center;
+    line-height: 50px;
+    /* color: white; */
+}
+
+.nama{
+    text-align: center;
+    /* color: white; */
+}
+
+.myButton{
+    box-shadow: 0px 10px 14px blueviolet;
+    background: linear-gradient(to bottom, red 5%, green 100%);
+    background-color: blue;
+    border-radius: 25px;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px green;
+    transition: 5s;
+}
+
+.myButton:hover{
+    background: linear-gradient(to bottom, blue 5%, red 100%);
+    background-color: white;
+}
+
+.myButton:active{
+    position: relative;
+    top : 1px;
+}
+
+.container{
+    width: 800px;
+    height: 600px;
+    background-color: white, 0.5px;
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+}
+
